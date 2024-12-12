@@ -1,0 +1,22 @@
+{
+  "name": "academy/frontend-essentials",
+  "description": "Academy plugin about frontend essentials",
+  "type": "shopware-platform-plugin",
+  "version": "1.0.0",
+  "license": "MIT",
+  "require": {
+    "shopware/core": "~6.6.0"
+  },
+  "extra": {
+    "shopware-plugin-class": "Academy\\AcademyFrontendEssentials",
+    "label": {
+      "de-DE": "Frontend essentials plugin",
+      "en-GB": "Frontend essentials plugin"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Academy\\": "src/"
+    }
+  }
+}
